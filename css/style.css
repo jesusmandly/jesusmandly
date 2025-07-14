@@ -411,6 +411,7 @@ header.scrolled {
     margin-left: 0;
     text-align: left;
     width: 100%;
+    max-width: 100%;
   }
 
   .inicio_hero_section_nav {
