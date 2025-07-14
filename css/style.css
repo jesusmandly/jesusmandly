@@ -403,6 +403,7 @@ header.scrolled {
     gap: 0.8rem;
     width: 100%;
     max-width: 100%;
+    letter-spacing: 0.1em;
   }
 
   .inicio_hero_section_container_text h2,
@@ -412,7 +413,6 @@ header.scrolled {
     text-align: left;
     width: 100%;
     max-width: 100%;
-      letter-spacing: 0.1em;
   }
 
   .inicio_hero_section_nav {
