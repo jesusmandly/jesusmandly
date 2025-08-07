@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Gracias por tu mensaje</title>
+  <link rel="stylesheet" href="estilos.css" >
+  <style>
+    body {
+      background-image: url(img/consultor-digital.webp);
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-principal, 'Poppins', sans-serif);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .gracias_container {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 3rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--color-dorado, #cfa349);
+      color: white;
+      text-align: center;
+      max-width: 600px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .gracias_container h1 {
+      color: var(--color-dorado, #cfa349);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .gracias_container p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .volver_btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      border: none;
+      background-color: var(--color-dorado, #cfa349);
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .volver_btn:hover {
+      background-color: #d9b155;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="gracias_container">
+    <h1>¡Gracias por tu mensaje!</h1>
+    <p>Lo he recibido correctamente. Me pondré en contacto contigo lo antes posible.</p>
+    <a href="index.html">
+      <button class="volver_btn">Volver al inicio</button>
+    </a>
+  </div>
+</body>
+</html>
